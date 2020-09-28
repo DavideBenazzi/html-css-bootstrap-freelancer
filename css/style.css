@@ -12,6 +12,9 @@
 
 .header-background {
   background: lightgrey;
+  /* position: fixed;                         <!----header fixed----->
+  top: 0;
+  z-index: 10; */
 }
 /* JUMBOTRON */
 .azure {
@@ -66,3 +69,6 @@
   height: 100px;
   background: lightgrey;
 }
+/* CONTACTME */
+
+/* FOOTER */
