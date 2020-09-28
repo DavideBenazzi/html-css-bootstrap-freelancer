@@ -12,3 +12,12 @@
 .header-background {
   background: lightgrey;
 }
+
+.azure {
+  height: 200px;
+  background: azure;
+}
+
+.main-background {
+  background: yellow;
+}
