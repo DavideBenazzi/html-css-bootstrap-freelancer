@@ -1,4 +1,5 @@
 /* DEBUG */
+
 .red {
   height: 100px;
   background: red;
@@ -6,7 +7,7 @@
 
 .green {
   height: 100px;
-  background: green;
+  background: #1abc9c;
 }
 
 .orange {
@@ -25,10 +26,13 @@
 }
 /* HEADER */
 .header-background {
-  background: lightgrey;
-  /* position: fixed;                         <!----header fixed----->
+  width: 100%;
+  background: #2c3e50;
+  position: fixed;
   top: 0;
-  z-index: 10; */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
 }
 /* JUMBOTRON */
 .lightblue {
@@ -38,6 +42,7 @@
 
 .main-background {
   background: yellow;
+  margin-top: 100px;
 }
 /* PORTFOLIO */
 .baita {
@@ -73,7 +78,6 @@
 .about {
   background: blue;
 }
-
 
 /* CONTACTME */
 
