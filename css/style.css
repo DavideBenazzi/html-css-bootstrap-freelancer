@@ -1,4 +1,5 @@
 /* DEBUG */
+/* HEADER */
 .red {
   height: 100px;
   background: red;
@@ -12,7 +13,7 @@
 .header-background {
   background: lightgrey;
 }
-
+/* JUMBOTRON */
 .azure {
   height: 200px;
   background: azure;
@@ -20,4 +21,34 @@
 
 .main-background {
   background: yellow;
+}
+/* PORTFOLIO */
+.baita {
+  height: 100px;
+  background: orange;
+}
+
+.torta {
+  height: 100px;
+  background: purple;
+}
+
+.tenda {
+  height: 100px;
+  background: green;
+}
+
+.pad {
+  height: 100px;
+  background: pink;
+}
+
+.cassa {
+  height: 100px;
+  background: blue;
+}
+
+.sub {
+  height: 100px;
+  background: gray;
 }
