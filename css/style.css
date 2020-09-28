@@ -1,0 +1,14 @@
+/* DEBUG */
+.red {
+  height: 100px;
+  background: red;
+}
+
+.green {
+  height: 100px;
+  background: green;
+}
+
+.header-background {
+  background: lightgrey;
+}
