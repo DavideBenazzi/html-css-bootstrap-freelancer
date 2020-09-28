@@ -1,5 +1,4 @@
 /* DEBUG */
-/* HEADER */
 .red {
   height: 100px;
   background: red;
@@ -10,6 +9,21 @@
   background: green;
 }
 
+.orange {
+  height: 100px;
+  background: orange;
+}
+
+.grey {
+  height: 100px;
+  background: lightgrey;
+}
+
+.blue {
+  height: 100px;
+  background: blue;
+}
+/* HEADER */
 .header-background {
   background: lightgrey;
   /* position: fixed;                         <!----header fixed----->
@@ -17,9 +31,9 @@
   z-index: 10; */
 }
 /* JUMBOTRON */
-.azure {
+.lightblue {
   height: 200px;
-  background: azure;
+  background: lightblue;
 }
 
 .main-background {
@@ -60,15 +74,30 @@
   background: blue;
 }
 
-.orange {
+
+/* CONTACTME */
+
+/* FOOTER */
+.footer {
+  background: purple;
+}
+
+.location {
   height: 100px;
   background: orange;
 }
 
-.grey {
+.web {
   height: 100px;
-  background: lightgrey;
+  background: red;
 }
-/* CONTACTME */
 
-/* FOOTER */
+.freelancer {
+  height: 100px;
+  background: blue;
+}
+
+.copyright {
+  height: 50px;
+  background: grey;
+}
