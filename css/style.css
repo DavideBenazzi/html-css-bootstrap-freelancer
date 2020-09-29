@@ -206,51 +206,9 @@ body {
 
 /* FOOTER */
 .footer {
-  background: purple;
-}
-
-.location {
-  height: 100px;
-  background: orange;
-}
-
-.web {
-  height: 100px;
-  background: red;
-}
-
-.freelancer {
-  height: 100px;
-  background: blue;
+  background: #2c3e50;
 }
 
 .copyright {
-  height: 50px;
-  background: grey;
-}
-
-
-.red {
-  height: 100px;
-  background: red;
-}
-
-.green {
-  height: 100px;
-  background: #1abc9c;
-}
-
-.orange {
-  height: 100px;
-  background: orange;
-}
-
-.grey {
-  height: 100px;
-  background: lightgrey;
-}
-
-.blue {
-  height: 100px;
-  background: blue;
+  background: #212529;
 }
