@@ -1,6 +1,17 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* UTILITY */
+.divider-line {
+  background: #ffffff;
+  height: 4px;
+  width: 30%;
+  margin: 0 auto 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* HEADER */
 .header-background {
   width: 100%;
@@ -40,42 +51,32 @@ body {
 .navbar .navbar-nav > li > a:hover {
   color: #1abc9c;
 }
-/* DEBUG */
-
-.red {
-  height: 100px;
-  background: red;
-}
-
-.green {
-  height: 100px;
-  background: #1abc9c;
-}
-
-.orange {
-  height: 100px;
-  background: orange;
-}
-
-.grey {
-  height: 100px;
-  background: lightgrey;
-}
-
-.blue {
-  height: 100px;
-  background: blue;
-}
 
 /* JUMBOTRON */
-.lightblue {
-  height: 200px;
-  background: lightblue;
+.avatar {
+  height: 300px;
+  margin-bottom: 30px;
 }
 
 .main-background {
-  background: yellow;
-  margin-top: 100px;
+  color: #ffffff;
+  background-color: #1abc9c;
+  margin-top: 80px;
+}
+
+.main-background h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.main-background i {
+  font-size: 32px;
+  margin:0 50px;
+}
+
+.main-background h3 {
+  margin: 50px 0;
 }
 /* PORTFOLIO */
 .baita {
@@ -137,4 +138,31 @@ body {
 .copyright {
   height: 50px;
   background: grey;
+}
+
+/* DEBUG */
+
+.red {
+  height: 100px;
+  background: red;
+}
+
+.green {
+  height: 100px;
+  background: #1abc9c;
+}
+
+.orange {
+  height: 100px;
+  background: orange;
+}
+
+.grey {
+  height: 100px;
+  background: lightgrey;
+}
+
+.blue {
+  height: 100px;
+  background: blue;
 }
