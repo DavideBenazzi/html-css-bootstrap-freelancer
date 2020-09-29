@@ -1,3 +1,45 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* HEADER */
+.header-background {
+  width: 100%;
+  background: #2c3e50;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  border-radius: 0;
+  border: none;
+  background: #2c3e50;
+  height: 60px;
+  line-height: 60px;
+  padding: 15px 0;
+}
+
+.navbar .navbar-brand {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav > li > a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  color: #1abc9c;
+}
 /* DEBUG */
 
 .red {
@@ -24,16 +66,7 @@
   height: 100px;
   background: blue;
 }
-/* HEADER */
-.header-background {
-  width: 100%;
-  background: #2c3e50;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-}
+
 /* JUMBOTRON */
 .lightblue {
   height: 200px;
