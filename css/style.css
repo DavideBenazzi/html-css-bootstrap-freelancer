@@ -146,7 +146,6 @@ body {
   border-color: #f8f9fa;
 }
 
-/* DEBUG */
 /* CONTACTME */
 .contactme {
   margin-bottom: 50px;
@@ -167,12 +166,44 @@ body {
   margin: 0 50px 30px;
 }
 
-.contactme .form-group {
+.contactme .form {
+  margin: 30px 0;
+}
+
+.contactme .form-group input,
+.contactme .form textarea {
   border: none;
-  border-radius: none;
+  border-radius: 0;
   border-bottom: 1px solid #333;
   box-shadow: none;
+  margin-bottom: 30px;
+  padding: 0;
 }
+
+.contactme .form-group label {
+  font-size: 22px;
+  font-weight: 400;
+  color: #495057;
+}
+
+.contactme .form textarea {
+  height: 200px;
+}
+
+.contactme .form .btn {
+  background: #1abc9c;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+}
+
+.contactme .form .btn:hover {
+  background: rgba(11, 86, 72, 0.5)
+}
+
+/* DEBUG */
+
 /* FOOTER */
 .footer {
   background: purple;
