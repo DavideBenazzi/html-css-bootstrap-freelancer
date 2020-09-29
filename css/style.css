@@ -6,7 +6,7 @@ body {
 .divider-line {
   background: #ffffff;
   height: 4px;
-  width: 30%;
+  width: 100px;;
   margin: 0 auto 20px;
   display: inline-block;
   vertical-align: middle;
@@ -79,35 +79,28 @@ body {
   margin: 50px 0;
 }
 /* PORTFOLIO */
-.baita {
-  height: 100px;
-  background: orange;
+.portfolio h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 50px 0 30px;
 }
 
-.torta {
-  height: 100px;
-  background: purple;
+.portfolio .divider-line {
+  background: #2c3e50;
 }
 
-.tenda {
-  height: 100px;
-  background: green;
+.portfolio i {
+  font-size: 32px;
+  margin: 0 50px 30px;
 }
 
-.pad {
-  height: 100px;
-  background: pink;
+.portfolio img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 30px;
 }
-
-.cassa {
-  height: 100px;
-  background: blue;
-}
-
-.sub {
-  height: 100px;
-  background: gray;
-}
+/* DEBUG */
 /* ABOUT */
 .about {
   background: blue;
@@ -140,7 +133,6 @@ body {
   background: grey;
 }
 
-/* DEBUG */
 
 .red {
   height: 100px;
