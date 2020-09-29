@@ -79,6 +79,10 @@ body {
   margin: 50px 0;
 }
 /* PORTFOLIO */
+.portfolio {
+  margin-bottom: 50px;
+}
+
 .portfolio h2 {
   font-size: 50px;
   font-weight: 700;
@@ -100,12 +104,49 @@ body {
   width: 100%;
   margin-bottom: 30px;
 }
-/* DEBUG */
 /* ABOUT */
 .about {
-  background: blue;
+  color: #ffffff;
+  background: #1abc9c;
 }
 
+.about h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 50px 0 30px;
+}
+
+.about i {
+  font-size: 32px;
+  margin: 0 50px 30px;
+}
+
+.about p {
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.about .btn {
+  background: #1abc9c;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+}
+
+.about .btn i {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.about .btn:hover {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+/* DEBUG */
 /* CONTACTME */
 
 /* FOOTER */
