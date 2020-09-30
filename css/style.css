@@ -76,7 +76,7 @@ body {
   margin-top: 80px;
 }
 
-.main-background h1 {
+h1 {
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -325,4 +325,21 @@ body {
   .return {
     display: block;
   }
+  /* TIPOGRAPHY */
+  .main-background h1 {
+    font-size: 42px;
+  }
+  .main-background img {
+    height: 150px;
+  }
+  .portfolio h2 {
+    font-size: 32px;
+  }
+  .about h2 {
+    font-size: 32px;
+  }
+  .contactme h2 {
+    font-size: 32px;
+  }
+
 }
