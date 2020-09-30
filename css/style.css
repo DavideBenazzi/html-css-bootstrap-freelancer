@@ -325,7 +325,9 @@ h1 {
   .return {
     display: block;
   }
-  /* TIPOGRAPHY */
+  .navbar .navbar-header .navbar-brand {
+    font-size: 22px;
+  }
   .main-background h1 {
     font-size: 42px;
   }
@@ -334,6 +336,14 @@ h1 {
   }
   .portfolio h2 {
     font-size: 32px;
+  }
+  .portfolio img {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .portfolio .portfolio-layover{
+    width: 80%;
+    left: 10%;
   }
   .about h2 {
     font-size: 32px;
