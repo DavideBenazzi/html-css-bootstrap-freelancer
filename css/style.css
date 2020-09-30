@@ -218,10 +218,6 @@ body {
   background: #2c3e50;
 }
 
-.footer .container {
-  margin-bottom: 50px;
-}
-
 .footer h3 {
   font-size: 30px;
   font-weight: 700;
@@ -264,6 +260,7 @@ body {
   color: #ffffff;
   background: #1a252f;
   line-height: 80px;
+  margin-top: 50px;
 }
 /* FRECCIA RETURN */
 .return {
